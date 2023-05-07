@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nonebot-adapter-httpserver"
+version = "0.1.0"
+authors = ["Yan <1964649083@qq.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = [{include = "nonebot"}]
+keywords = ["bot", "httpserver"]
+description = "httpserver adapter for nonebot"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+nonebot2 = "^2.0.0rc1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
